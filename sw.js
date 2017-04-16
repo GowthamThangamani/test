@@ -21,7 +21,30 @@ let CURRENT_CACHES = {
 };
 const OFFLINE_URL = 'index.html';
 
-var allUrl = ["index.html","style.css","another.html"]
+var allUrl = [
+"css/bootstrap.min.css","css/font-awesome.min.css","css/lightbox.css","css/owl.carousel.css",
+"index.html",
+"css/owl.theme.css","css/slicknav.min.css",
+"css/reset.css","css/style.css","css/responsive.css","js/respond.js","css/animate.min.css","images/favicon.ico","https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i","images/client/img1.jpg","images/favicon.ico",
+"images/client/img1.jpg",
+"images/client/img1.jpg",
+"images/client/img2.jpg",
+"images/gowtham.jpg",
+"images/logo.png",
+"js/jquery-2.2.4.min.js",
+"js/particles.min.js",
+"js/jquery.slicknav.min.js",
+"js/owl.carousel.min.js",
+"js/mixitup.min.js",
+"js/bootstrap.min.js",
+"js/typed.js",
+"js/lightbox.js",
+"js/particlesReset.js",
+"js/jquery.waypoints.min.js",
+"js/jquery.stellar.min.js",
+"js/jquery.singlePageNav.min.js",
+"js/main.js"
+]
 
 function createCacheBustedRequest(url) {
   let request = new Request(url, {cache: 'reload'});
